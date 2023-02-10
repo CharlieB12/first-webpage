@@ -35,11 +35,14 @@ a{ color: white; text-decoration: none;}
 
 .container.one {
     background-color: #1F2937;
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30%;
+    
+    
     gap: 20%;
+    padding: 5%;
 }
 
 .text_one {
@@ -60,15 +63,19 @@ a{ color: white; text-decoration: none;}
 }
 
 .container.two {
+     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 30%;
+    padding: 5%;
+    
 }
 
 .container_two_title {
     font-size: 250%;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .image_boxes div {
@@ -91,4 +98,27 @@ a{ color: white; text-decoration: none;}
 .image_boxes img {
     width: 50%;
     width: 50%;
+}
+
+.text_two {
+    font-size: 250%;
+    width: 60%;
+}
+
+.text_two h1 {
+    font-size: 100%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.container.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 30%;
+    
+    padding: 5%;
 }
